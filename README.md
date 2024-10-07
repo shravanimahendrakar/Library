@@ -49,9 +49,9 @@ INSERT INTO Library.Book (id, name, type) VALUES (5, '100 Recipe', 'Food');
 
 4. **Update Configuration**:
 
-Open the application.properties file and update the database credentials:
+Open the spring-servlet.xml file and update the database credentials:
 properties
-Copy code
+- 
 spring.datasource.url=jdbc:mysql://localhost:3306/Library
 spring.datasource.username=<your_database_username>
 spring.datasource.password=<your_database_password>
