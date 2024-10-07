@@ -10,12 +10,12 @@ To get started with this project, follow these steps:
 
 2. **Prerequisites**:
 
-Java Development Kit (JDK) 11 or higher
-Integrated Development Environment (IDE) such as Eclipse or IntelliJ IDEA
-MySQL Server 9.0
-MySQL Workbench (optional, for database management)
-Maven (for dependency management)
-Tomcat (8/9)
+- Java Development Kit (JDK) 11 or higher
+- Integrated Development Environment (IDE) such as Eclipse or IntelliJ IDEA
+- MySQL Server 9.0
+- MySQL Workbench (optional, for database management)
+- Maven (for dependency management)
+- Tomcat (8/9)
 
 3. **Database Setup**:
 
