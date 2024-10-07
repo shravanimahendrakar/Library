@@ -1,15 +1,14 @@
-
-Library Management System
+# Library Management System
 User Registration and Book Lookup Application
 
-Setup Instructions
+# Setup Instructions
 To get started with this project, follow these steps:
 
 Clone the Repository:
-
 git clone <repository_url>
 cd <project_directory>
-Prerequisites:
+
+# Prerequisites:
 
 Java Development Kit (JDK) 11 or higher
 Integrated Development Environment (IDE) such as Eclipse or IntelliJ IDEA
@@ -17,7 +16,8 @@ MySQL Server 9.0
 MySQL Workbench (optional, for database management)
 Maven (for dependency management)
 Tomcat (8/9)
-Database Setup:
+
+# Database Setup:
 
 Create a database schema named Library.
 Create the following tables:
@@ -46,7 +46,8 @@ INSERT INTO Library.Book (id, name, type) VALUES (2, 'Friends', 'Friends');
 INSERT INTO Library.Book (id, name, type) VALUES (3, 'Never Enough', 'Love');
 INSERT INTO Library.Book (id, name, type) VALUES (4, 'Donuts', 'Food');
 INSERT INTO Library.Book (id, name, type) VALUES (5, '100 Recipe', 'Food');
-Update Configuration:
+
+# Update Configuration:
 
 Open the application.properties file and update the database credentials:
 properties
@@ -54,7 +55,8 @@ Copy code
 spring.datasource.url=jdbc:mysql://localhost:3306/Library
 spring.datasource.username=<your_database_username>
 spring.datasource.password=<your_database_password>
-Running the Application:
+
+# Running the Application:
 
 Build and run the application using your preferred IDE. Choose the option to "Run as Server".
 Usage:
@@ -62,6 +64,7 @@ Usage:
 Once the application is running, open your browser and navigate to the following URLs to access the application:
 http://localhost:8080
 http://localhost:8080/Library_SpringMVC/
-Author
+
+# Author
 Shravani Mahendrakar
 GitHub: @shravanimahendrakar
