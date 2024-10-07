@@ -56,14 +56,14 @@ spring.datasource.url=jdbc:mysql://localhost:3306/Library
 spring.datasource.username=<your_database_username>
 spring.datasource.password=<your_database_password>
 
-4. **Running the Application**:
+5. **Running the Application**:
 
 Build and run the application using your preferred IDE. Choose the option to "Run as Server".
 Usage:
 
 Once the application is running, open your browser and navigate to the following URLs to access the application:
-http://localhost:8080
-http://localhost:8080/Library_SpringMVC/
+- http://localhost:8080
+- http://localhost:8080/Library_SpringMVC/
 
 ## Author
 Shravani Mahendrakar
